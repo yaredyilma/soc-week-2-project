@@ -8,8 +8,8 @@ function devowel() {
 console.assert(devowel('alphAbet') === 'alphAbet', 'first');
 console.assert(devowel('If it must bE') === 'if it must bE', 'second');
 console.assert(devowel('Over and out') === 'Over and out', 'third');
-console.assert(devowel('Up!') === 'p!', 'fourth');
-console.assert(devowel('AaEeIiOoUuAaEeIiOoUu') === '', 'fifth');
+console.assert(devowel('Up!') === 'Up!', 'fourth');
+console.assert(devowel('AaEeIiOoUuAaEeIiOoUu') === 'AaEeIiOoUuAaEeIiOoUu', 'fifth');
 
 
 function devowelHandler() {
