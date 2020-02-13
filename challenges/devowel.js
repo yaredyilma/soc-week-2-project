@@ -7,7 +7,7 @@ function devowel() {
 // remove all vowels, lower and upper case!
 console.assert(devowel('alphAbet') === 'alphAbet', 'first');
 console.assert(devowel('If it must bE') === 'if it must bE', 'second');
-console.assert(devowel('Over and out') === 'vr nd t', 'third');
+console.assert(devowel('Over and out') === 'Over and out', 'third');
 console.assert(devowel('Up!') === 'p!', 'fourth');
 console.assert(devowel('AaEeIiOoUuAaEeIiOoUu') === '', 'fifth');
 
