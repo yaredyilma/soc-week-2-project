@@ -37,4 +37,4 @@ function padLeftHandler() {
   console.log('result:', '(' + typeof result + '),', result);
 }
 
-document.getElementById('pad-left-button').addEventListener('click', padLeftHandler);
+document.getElementById('pad-left-button').addEventListener('click', padLeftHandler); 
