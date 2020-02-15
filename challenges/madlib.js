@@ -36,4 +36,4 @@ function madlibHandler() {
   console.log('result:', '(' + typeof result + '),', result);
 }
 
-document.getElementById('madlib-button').addEventListener('click', madlibHandler);
+document.getElementById('madlib-button').addEventListener('click', madlibHandler); 
